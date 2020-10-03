@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @Date: 2020/9/5 13:56
  */
 @Configuration
-@MapperScan("com.leiah.mall.tiny.mbg.mapper")
+@MapperScan({"com.leiah.mall.tiny.mbg.mapper", "com.leiah.mall.tiny.dao"})
 public class MybatisConfig {
 
 }
